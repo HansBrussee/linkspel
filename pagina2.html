@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>LinkGame</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="LinkGame: een leuke les over links">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="author" content="Hans Brussee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles-oud.css">
+</head>
+
+<!--Deze pagina is gemaakt door Hans Brussee-->
+
+<body>
+    <a href=""><h1>VROEGER WAS ALLES BETER!</h1></a>
+    <p>Dat zeggen mensen vaak die niet met hun tijd mee willen gaan;-)</p>
+    <br><br>
+    <h2>Vroeger zagen de links er heel anders uit</h2>
+    <p>Er bestond nog geen css-code. Een link was altijd <span class="blauw lijntje">BLAUW</span> met een streep eronder.</p>
+<table>
+    <tr>
+        <td>Nog niet aangeklikte link</td>
+        <td class="blauw">BLAUW</td>
+    </tr>
+    <tr>
+        <td>Tijdens het klikken op de link</td>
+        <td class="rood">ROOD</td>
+    </tr>
+    <tr>
+        <td>Als je de link bezocht hebt</td>
+        <td class="paars">PAARS</td>
+    </tr> 
+</table>
+
+
+<p>Om het wat spannender te maken werden wel of niet geanimeerde afbeeldingen gebruikt, zoals deze:</p>
+<p>
+   <a href=""><img src="images/button-klik-hier.png" alt="klik hier"></a>
+    <a href=""><img src="images/ideesonline-klik-hier.gif" alt="geanimeerde klik hier"></a>
+</p>
+<p><strong>Instructies:</strong><br> Zonder kleuren of duidelijke aanwijzing zul je met je muis moeten zoeken om <a class="zonder" href="pagina3.html">verder te kunnen gaan.</a></p>
+
+
+
+
+
+    <script>
+        function click() { if (event.button == 2) { alert("NIET VALSSPELEN HE!") } } document.onmousedown = click
+
+        function MM_displayStatusMsg(msgStr) { //v2.0
+            status = msgStr;
+            document.MM_returnValue = true;
+        }
+    </script>
+
+</body>
+
+</html>

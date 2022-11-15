@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>LinkGame</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="LinkGame: een leuke les over links">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="author" content="Hans Brussee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<!--Deze pagina is gemaakt door Hans Brussee-->
+
+<body class="groene-achtergrond">
+    <nav>
+        <ul>
+            <li><a href="pagina4.html">&#x2190; TERUG</a></li>
+            <li><a href="index.html">OVER LINKS</a></li>
+            <li><a href="pagina2.html">HIGH SCORE</a></li>
+            <li><a href="javascript:history.back()">VERDER &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Vormgeving is dus belangrijk!</h2>
+            <p>Je hebt intussen wel door dat het belangrijk is hoe links zijn vormgegeven voor de
+                gebruiksvriendelijkheid van een website.</p>
+            <p>De bezoeker van de website moet weten waar hij/zij op moet klikken om ergens naar toe te gaan.</p>
+            <br>
+            <p>Met css-code kan de bezoeker zien wat links zijn, doordat het bijvoorbeeld een vorm van een knop heeft of
+                als je er met je muis overheen gaat er iets gebeurd. Dit noem je een hover.</p>
+        </article>
+
+      <section>
+            <a href="" class="link1">KLIK HIER!</a>
+            <a href="" class="link2">NEE HIER!</a>
+            <a href="" class="link3">OF HIER!</a>
+            <a href="" class="link4">&#x2190; KLIK DAAR!</a>
+            <a href="" class="link5">LINK HIER!</a>
+            <a href="" class="link6">KLIK NIET HIER!</a>
+        </section>
+    </main>
+
+    <footer class="blauwe-achtergrond">
+        <p><strong>Instructies:</strong><br>Je bent goed op weg, maar soms moet je een stapje terug om verder te kunnen. Kijk uit voor valse linx.</p>
+    </footer>
+
+    <script>
+        function click() { if (event.button == 2) { alert("NIET VALSSPELEN HE!") } } document.onmousedown = click
+
+        function MM_displayStatusMsg(msgStr) { //v2.0
+            status = msgStr;
+            document.MM_returnValue = true;
+        }
+    </script>
+
+</body>
+
+</html>

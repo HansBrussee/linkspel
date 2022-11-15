@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>LinkGame</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="LinkGame: een leuke les over links">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="author" content="Hans Brussee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<!--Deze pagina is gemaakt door Hans Brussee-->
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">&#x2190; TERUG</a></li>
+            <li><a href="">OVER LINKS</a></li>
+            <li><a href="">HIGH SCORE</a></li>
+            <li><a href="">VERDER &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Welkom bij de LinkGame</h2>
+            <p>Het internet is niets zonder hyperlinks, maar wat is een link?
+                <br>Links zijn bedoeld om te navigeren naar andere pagina's die zich binnen of buiten de website bevinden.
+            </p>
+            <a class="blink" href="">KLIK HIER!!!</a>
+            <p>Op welke link zou jij als eerste klikken en waarom?</p>
+        </article>
+
+        <figure>
+            <div>
+            <a href=""><img src="images/vingertje.png" alt="vingertje" class="vinger"></a>
+            <figcaption><h3>Spelregels</h3> <p>Zoek met je muis of trackpad naar links. 
+                <br>Bij een link verandert je cursor van een pijltje naar een handje.
+                <br>Als er bij het klikken niets gebeurd moet je verder zoeken;-)</p></figcaption>
+            </div>
+        </figure>
+    </main>
+
+    <footer>
+        <p><strong>Instructies:</strong><br> Klik op <a href="pagina2.html">de werkende link</a> om verder te gaan.</p>
+    </footer>
+
+    <script>
+        function click() { if (event.button == 2) { alert("NIET VALSSPELEN HE!") } } document.onmousedown = click
+    
+        function MM_displayStatusMsg(msgStr) { //v2.0
+            status = msgStr;
+            document.MM_returnValue = true;
+        }
+    </script>
+
+</body>
+</html>

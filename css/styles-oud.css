@@ -1,0 +1,22 @@
+.blauw {
+    color: blue;
+}
+.rood {
+    color: red;
+}
+.paars {
+    color: purple;
+}
+
+.lijntje {
+    text-decoration: underline;
+}
+
+td {
+    padding: 5px;
+}
+
+.zonder {
+    text-decoration: none;
+    color: black;
+}

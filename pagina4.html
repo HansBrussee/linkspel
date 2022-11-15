@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>LinkGame</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="LinkGame: een leuke les over links">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="author" content="Hans Brussee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<!--Deze pagina is gemaakt door Hans Brussee-->
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">&#x2190; TERUG</a></li>
+            <li><a href="">OVER LINKS</a></li>
+            <li><a href="">HIGH SCORE</a></li>
+            <li><a href="">VERDER &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure>
+            <img class="linx" src="images/linx.png" alt="De Links" usemap="#workmap">
+            <map name="workmap">
+                <area shape="circle" coords="100,100,100" alt="de goede linx" title="de goede linx" href="gelukt.html">
+            </map>
+        </figure>
+
+        <article>
+            <h2>Je bent er bijna</h2>
+            <p>Maar kijk uit dat je niet op de verkeerde link klikt want dan moet je opnieuw beginnen!</p>
+        </article>
+    </main>
+
+    <footer>
+        <p><strong>Instructies:</strong><br>Klik op <a href="index2.html">de werkende linx</a> om verder te gaan.</p>
+    </footer>
+
+    <script>
+        function click() { if (event.button == 2) { alert("NIET VALSSPELEN HE!") } } document.onmousedown = click
+
+        function MM_displayStatusMsg(msgStr) { //v2.0
+            status = msgStr;
+            document.MM_returnValue = true;
+        }
+    </script>
+
+</body>
+
+</html>
